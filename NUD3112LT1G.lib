@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# NUD3112LT1G
+#
+DEF NUD3112LT1G U 0 40 Y Y 1 L N
+F0 "U" -211 221 50 H V L BNN
+F1 "NUD3112LT1G" -130 -501 50 H V L BNN
+F2 "SOT95P240X110-3N" 0 0 50 H I L BNN
+F3 "NUD3112LT1GOSCT-ND" 0 0 50 H I L BNN
+F4 "SOT-23-3 ON Semiconductor" 0 0 50 H I L BNN
+F5 "NUD3112LT1G" 0 0 50 H I L BNN
+F6 "NUD Series 12 V 500 mA SMT Automotive Inductive Load Driver - SOT-23-3" 0 0 50 H I L BNN
+F7 "https://www.digikey.com/product-detail/en/on-semiconductor/NUD3112LT1G/NUD3112LT1GOSCT-ND/1139974?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F8 "ON Semiconductor" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 200 -500 -400 N
+P 2 0 0 16 -500 -400 500 -400 N
+P 2 0 0 16 500 -400 500 200 N
+P 2 0 0 16 500 200 -500 200 N
+X GATE 1 -700 0 200 R 40 40 0 0 I 
+X SOURCE 2 -700 -200 200 R 40 40 0 0 P 
+X DRAIN 3 700 0 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
