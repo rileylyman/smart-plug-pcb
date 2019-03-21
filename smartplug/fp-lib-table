@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name smartplug)(type KiCad)(uri C:/Users/jerem/Documents/HOPE/smart-plug-pcb/smartplug)(options "")(descr ""))
+  (lib (name ALA2F12)(type Legacy)(uri C:/Users/jerem/Documents/HOPE/smart-plug-pcb/ALA2F12.mod)(options "")(descr ""))
+  (lib (name NUD3112LT1G)(type Legacy)(uri C:/Users/jerem/Documents/HOPE/smart-plug-pcb/NUD3112LT1G.mod)(options "")(descr ""))
+  (lib (name RAC01-05SGA)(type Legacy)(uri C:/Users/jerem/Documents/HOPE/smart-plug-pcb/RAC01-05SGA.mod)(options "")(descr ""))
+)
