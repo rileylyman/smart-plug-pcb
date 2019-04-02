@@ -3,4 +3,5 @@
   (lib (name RAC01-05SGA)(type Legacy)(uri C:/Users/jerem/Documents/HOPE/smart-plug-pcb/RAC01-05SGA.lib)(options "")(descr ""))
   (lib (name NUD3112LT1G)(type Legacy)(uri C:/Users/jerem/Documents/HOPE/smart-plug-pcb/NUD3112LT1G.lib)(options "")(descr ""))
   (lib (name ALA2F12)(type Legacy)(uri C:/Users/jerem/Documents/HOPE/smart-plug-pcb/ALA2F12.lib)(options "")(descr ""))
+  (lib (name smartplug-rescue)(type Legacy)(uri ${KIPRJMOD}/smartplug-rescue.lib)(options "")(descr ""))
 )
