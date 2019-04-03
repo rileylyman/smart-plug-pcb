@@ -3,4 +3,6 @@
   (lib (name NUD3112LT1G)(type Legacy)(uri ${KIPRJMOD}/NUD3112LT1G.mod)(options "")(descr ""))
   (lib (name RAC01-05SGA)(type Legacy)(uri ${KIPRJMOD}/RAC01-05SGA.mod)(options "")(descr ""))
   (lib (name usb_charger)(type KiCad)(uri ${KIPRJMOD}/usb_charger.pretty)(options "")(descr ""))
+  (lib (name FUSE_0154004.DR)(type Legacy)(uri ${KIPRJMOD}/FUSE_0154004.DR.mod)(options "")(descr ""))
+  (lib (name female_plug)(type Legacy)(uri ${KIPRJMOD}/3-213598-2.mod)(options "")(descr ""))
 )
