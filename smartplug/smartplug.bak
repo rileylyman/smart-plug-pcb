@@ -89,7 +89,7 @@ U 1 1 5C9402BB
 P 8900 2150
 F 0 "K1" H 9380 2196 50  0000 L CNN
 F 1 "ALA2F12" H 9380 2105 50  0000 L CNN
-F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 9400 2100 50  0001 L CNN
+F 2 "ALA2F12_changed:ALA2F12-pins_changed" H 9400 2100 50  0001 L CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 8800 2150 50  0001 C CNN
 	1    8900 2150
 	1    0    0    -1  

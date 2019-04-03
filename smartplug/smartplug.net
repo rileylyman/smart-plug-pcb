@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/riley/github/hope-circuit/smartplug/smartplug.sch)
-    (date "Wed 03 Apr 2019 03:19:16 PM PDT")
+    (date "Wed 03 Apr 2019 03:30:10 PM PDT")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -49,7 +49,7 @@
       (tstamp 5C93137A))
     (comp (ref J2)
       (value Conn_01x03_Female)
-      (footprint female_plug:TE_3-213598-2)
+      (footprint female_plug_new:TE_3-213598-2-new)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x03_Female) (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
@@ -139,7 +139,7 @@
       (tstamp 5CA44C84))
     (comp (ref J1)
       (value Conn_01x03_Male)
-      (footprint female_plug:TE_3-213598-2)
+      (footprint female_plug_new:TE_3-213598-2-new)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x03_Male) (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
