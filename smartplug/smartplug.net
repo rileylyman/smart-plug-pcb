@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/riley/github/hope-circuit/smartplug/smartplug.sch)
-    (date "Wed 03 Apr 2019 03:10:57 PM PDT")
+    (date "Wed 03 Apr 2019 03:19:16 PM PDT")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -56,7 +56,7 @@
       (tstamp 5C93E3AE))
     (comp (ref K1)
       (value ALA2F12)
-      (footprint Relay_THT:Relay_StandexMeder_DIP_LowProfile)
+      (footprint ALA2F12_changed:ALA2F12-pins_changed)
       (datasheet https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf)
       (libsource (lib smartplug-rescue) (part ALA2F12-ALA2F12) (description ""))
       (sheetpath (names /) (tstamps /))
