@@ -9,4 +9,5 @@
   (lib (name SOIC127P600X175-9N)(type Legacy)(uri ${KIPRJMOD}/usb_charger.pretty/SOIC127P600X175-9N.mod)(options "")(descr ""))
   (lib (name female_plug_new)(type KiCad)(uri ${KIPRJMOD}/female_plug_new.pretty)(options "")(descr ""))
   (lib (name term_block_3pos)(type KiCad)(uri ${KIPRJMOD}/term_block_3pos.pretty)(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri ${KIPRJMOD}/logos.pretty)(options "")(descr ""))
 )
