@@ -20,7 +20,7 @@ U 1 1 5C931075
 P 5250 2900
 F 0 "U3" H 5250 3887 60  0000 C CNN
 F 1 "PHOTON" H 5250 3781 60  0000 C CNN
-F 2 "digikey-footprints:Particle_Photon" H 5250 3000 60  0001 C CNN
+F 2 "particle:photon_smd" H 5250 3000 60  0001 C CNN
 F 3 "" H 5250 3000 60  0000 C CNN
 	1    5250 2900
 	1    0    0    -1  
@@ -60,12 +60,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x03_Female J2
 U 1 1 5C93E3AE
-P 9900 1500
-F 0 "J2" H 9927 1526 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 9927 1435 50  0000 L CNN
-F 2 "female_plug_new:TE_3-213598-2-new" H 9900 1500 50  0001 C CNN
-F 3 "~" H 9900 1500 50  0001 C CNN
-	1    9900 1500
+P 10650 2350
+F 0 "J2" H 10677 2376 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 10677 2285 50  0000 L CNN
+F 2 "female_plug_new:TE_3-213598-2-new" H 10650 2350 50  0001 C CNN
+F 3 "~" H 10650 2350 50  0001 C CNN
+	1    10650 2350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -160,30 +160,22 @@ VAC-
 $Comp
 L power:GND #PWR0105
 U 1 1 5C9426C3
-P 9550 1500
-F 0 "#PWR0105" H 9550 1250 50  0001 C CNN
-F 1 "GND" H 9555 1327 50  0000 C CNN
-F 2 "" H 9550 1500 50  0001 C CNN
-F 3 "" H 9550 1500 50  0001 C CNN
-	1    9550 1500
+P 10300 2350
+F 0 "#PWR0105" H 10300 2100 50  0001 C CNN
+F 1 "GND" H 10305 2177 50  0000 C CNN
+F 2 "" H 10300 2350 50  0001 C CNN
+F 3 "" H 10300 2350 50  0001 C CNN
+	1    10300 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 1500 9550 1500
+	10450 2350 10300 2350
 Wire Wire Line
-	9700 1600 9700 1850
-Wire Wire Line
-	9700 1850 9300 1850
-Wire Wire Line
-	9700 1400 9000 1400
+	10450 2450 10450 2700
 Wire Wire Line
 	9000 1400 9000 1850
 Wire Wire Line
-	9000 2450 9000 2700
-Wire Wire Line
 	9300 2450 9300 2700
-Text Label 9000 2700 1    50   ~ 0
-VAC+
 Text Label 9300 2700 1    50   ~ 0
 VAC-
 $Comp
@@ -458,4 +450,24 @@ F 3 "~" H 1150 1900 50  0001 C CNN
 	1    1150 1900
 	1    0    0    -1  
 $EndComp
+Text Label 9000 1800 1    50   ~ 0
+VAC+
+Wire Wire Line
+	9300 1850 9300 1500
+Text Label 9300 1850 1    50   ~ 0
+out_VAC-
+Text Label 9000 2850 1    50   ~ 0
+out_VAC+
+Wire Wire Line
+	9000 2450 9000 2850
+Wire Wire Line
+	10450 2250 10000 2250
+Wire Wire Line
+	10450 2700 9900 2700
+Wire Wire Line
+	9900 2700 9900 2650
+Text Label 10050 2250 0    50   ~ 0
+out_VAC+
+Text Label 10000 2700 0    50   ~ 0
+out_VAC-
 $EndSCHEMATC
